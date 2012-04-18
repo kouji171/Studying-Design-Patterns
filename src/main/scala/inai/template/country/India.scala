@@ -1,6 +1,6 @@
 package inai.template.country
 
-class India(string:Temple) extends Country(string){
+class India(v:Temple) extends Country(v){
   def wordOf(e:Temple): String = e.greet
 }
 class Temple{
